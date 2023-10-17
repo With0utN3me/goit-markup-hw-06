@@ -261,6 +261,11 @@ section.promo-banner {
     max-width: 1440px;
     margin: 0 auto;
 }
+@media (min-resolution: 192dpi) {
+    section.promo-banner {
+        background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), url(../images/bgimage@2x.jpg);
+    }
+}
 .promo-title {
 /*    font-weight: 700;
     font-size: 56px;
